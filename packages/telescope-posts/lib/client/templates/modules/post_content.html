@@ -3,7 +3,7 @@
     {{> modules "postThumbnail"}}
     <div class="post-info">
       {{> modules zone="postHeading" zoneClass="post-heading"}}
-      {{> modules zone="postMeta" zoneClass="post-meta"}}
+      {{#if url}}<span class="post-domain">{{domain}}</span>{{/if}}
     </div>
   </div>
 </template>
